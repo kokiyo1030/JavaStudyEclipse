@@ -1,0 +1,10 @@
+package sec01.exma03;
+
+import sec01.exam01.RemoteControl;
+import sec01.exam01.Television;
+
+public class MyClass {
+	RemoteControl rc = new Television();
+	
+	
+}

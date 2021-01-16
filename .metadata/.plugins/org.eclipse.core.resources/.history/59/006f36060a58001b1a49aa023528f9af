@@ -1,0 +1,11 @@
+package sec01.exam02;
+
+public class Outter {
+	String field = "Outter-field";
+	
+	public void method(int num) {
+		int val = 4;
+		num = 3;
+		val = 6;
+	}
+}

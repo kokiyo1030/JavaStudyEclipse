@@ -1,0 +1,14 @@
+package sec01.exam02;
+
+public class SmartTelevisionExample {
+
+	public static void main(String[] args) {
+		SmartTelevision tv = new SmartTelevision();
+		
+		tv.search("naver");
+		tv.turnOn();
+		tv.turnOff();
+		tv.setVolume(30);
+	}
+
+}

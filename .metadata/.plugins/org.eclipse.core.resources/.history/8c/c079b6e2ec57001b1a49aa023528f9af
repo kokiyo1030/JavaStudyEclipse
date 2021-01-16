@@ -1,0 +1,16 @@
+package sec01.exma03;
+
+import sec01.exam01.RemoteControl;
+import sec01.exam01.Television;
+
+public class MyClass {
+	// 필드
+	RemoteControl rc = new Television();
+	
+	// 생성자
+	MyClass() {}
+	
+	MyClass(RemoteControl rc) {
+		
+	}
+}

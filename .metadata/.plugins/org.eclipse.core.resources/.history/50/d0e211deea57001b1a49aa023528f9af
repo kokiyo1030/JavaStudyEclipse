@@ -1,0 +1,30 @@
+package sec01.exam02;
+
+import sec01.exam01.RemoteControl;
+
+public class SmartTelevision implements RemoteControl, Searchable {
+	private int volume;
+	
+	@Override
+	public void search(String url) {
+		System.out.println(url + "를 검색합니다");
+	}
+
+	@Override
+	public void turnOn() {
+		System.out.println("TV를 켭니다");
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

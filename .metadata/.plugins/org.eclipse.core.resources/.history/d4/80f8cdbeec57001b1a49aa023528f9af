@@ -1,0 +1,26 @@
+package sec01.exma03;
+
+import sec01.exam01.RemoteControl;
+
+public class MyClass {
+	RemoteControl rc = new RemoteControl() {
+		
+		@Override
+		public void turnOn() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		@Override
+		public void turnOff() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		@Override
+		public void setVolume(int volume) {
+			// TODO Auto-generated method stub
+			
+		}
+	};
+}

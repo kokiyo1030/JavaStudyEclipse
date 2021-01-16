@@ -1,0 +1,18 @@
+package sec01.exma03;
+
+import sec01.exam01.Audio;
+
+public class MyClassExample {
+
+	public static void main(String[] args) {
+		System.out.println("1)--------------------------");
+		
+		MyClass myClass = new MyClass();
+		myClass.rc.turnOn();
+		myClass.rc.setVolume(2);
+		
+		System.out.println("2)--------------------------");
+		MyClass myClass2 = new MyClass(new Audio());
+	}
+
+}

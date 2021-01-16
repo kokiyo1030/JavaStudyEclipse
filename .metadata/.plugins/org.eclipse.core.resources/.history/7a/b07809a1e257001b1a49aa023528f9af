@@ -1,0 +1,11 @@
+package package03;
+
+public class SmartPhone extends Phone {
+
+	// »ý¼ºÀÚ
+	public SmartPhone(String owner) {
+		super(owner);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

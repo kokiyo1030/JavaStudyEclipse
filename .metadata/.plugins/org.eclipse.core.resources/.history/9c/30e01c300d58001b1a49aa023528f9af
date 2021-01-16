@@ -1,0 +1,9 @@
+package sec01.test;
+
+public class CheckBox {
+	OnSelectListener listener;
+	
+	static interface OnSelectListener {
+		void onSelect();
+	}
+}
